@@ -11,7 +11,12 @@ struct Wrapper(i32);
 
 #[num_type]
 struct Wrapper2(u64);
-```
 
-```
+// Later in code
+
+fn foo() {
+    let a = Wrapper(3);
+    let b = Wrapper(4);
+    println!("{}", (a + b).0)
+}
 ```
