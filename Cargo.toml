@@ -1,0 +1,13 @@
+[package]
+name = "num_type"
+version = "0.0.0"
+edition = "2021"
+license-file = "LICENSE"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "2.0.90"
+quote = "1.0.37"
+proc-macro2 = "1.0.92"
