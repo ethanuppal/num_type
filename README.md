@@ -7,9 +7,11 @@ etc. implemented for them, so you can add them with, e.g., `+`.
 
 ```rs
 #[num_type]
+#[repr(transparent)]
 struct Wrapper(i32);
 
 #[num_type]
+#[repr(transparent)]
 struct Wrapper2(u64);
 
 // Later in code
